@@ -30,9 +30,9 @@ Functions of these three cases of complexity is rarely precise:
 > The Big Oh simplifies our analysis by ignoring levels of detail that do not impact our comparison of algorithms.
 
 Some math:
-$$
+\[
 f(n)=O(g(n)) \quad f(n)=\Omega(g(n)) \quad f(n)=\Theta(g(n))
-$$
+\]
 upper bound, lower bound, nice bound   比较判别法
 
 > The Big Oh notation and worst-case analysis are tools that greatly simplify our ability to compare the efficiency of algorithms.
