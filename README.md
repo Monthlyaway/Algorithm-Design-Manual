@@ -35,8 +35,6 @@ $$f(n)=O(g(n)) \quad f(n)=\Omega(g(n)) \quad f(n)=\Theta(g(n))$$
 
 upper bound, lower bound, nice bound   比较判别法
 
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
-
 > The Big Oh notation and worst-case analysis are tools that greatly simplify our ability to compare the efficiency of algorithms.
 
 $3 n^2-100 n+6=\Theta\left(n^2\right)$, **because both $O$ and $\Omega$ apply;**
