@@ -38,5 +38,7 @@ upper bound, lower bound, nice bound   比较判别法
 > The Big Oh notation and worst-case analysis are tools that greatly simplify our ability to compare the efficiency of algorithms.
 
 $3 n^2-100 n+6=\Theta\left(n^2\right)$, **because both $O$ and $\Omega$ apply;**
+
 $3 n^2-100 n+6 \neq \Theta\left(n^3\right)$, because only $O$ applies;
+
 $3 n^2-100 n+6 \neq \Theta(n)$, because only $\Omega$ applies.
